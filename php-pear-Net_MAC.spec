@@ -4,7 +4,7 @@
 %define		_status		alpha
 %define		_pearname	Net_MAC
 Summary:	%{_pearname} - validates and formats MAC addresses
-Summary(pl.UTF-8):	%{_pearname} - walidacja i formatowanie adresów MAC
+Summary(pl.UTF-8):	%{_pearname} - kontrola poprawności i formatowanie adresów MAC
 Name:		php-pear-%{_pearname}
 Version:	0.1.4
 Release:	2
@@ -31,7 +31,7 @@ In PEAR status of this package is: %{_status}.
 Pakiet ten sprawdza poprawnoaść oraz formatuje adres Media Access
 Control (MAC). Klasa Net_MAC pozwala także na import listy dostawców
 MAC i zapisanie jej w bazie, z której klasa ta może skorzystać do
-identifykacji adresów.
+identyfikacji adresów.
 
 Ta klasa ma w PEAR status: %{_status}.
 
