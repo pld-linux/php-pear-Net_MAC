@@ -6,12 +6,12 @@
 Summary:	%{_pearname} - validates and formats MAC addresses
 Summary(pl.UTF-8):	%{_pearname} - kontrola poprawności i formatowanie adresów MAC
 Name:		php-pear-%{_pearname}
-Version:	0.1.4
-Release:	2
+Version:	0.1.5
+Release:	1
 License:	BSD License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	3d6ba61c5c78918a1d47dbf76432bea1
+# Source0-md5:	a518dbb6fb6517eb4fc47bb7dacfcfd4
 URL:		http://pear.php.net/package/Net_MAC/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
